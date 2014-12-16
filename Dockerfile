@@ -10,4 +10,5 @@ RUN chmod a+w /app/tmp && \
     chmod a+w /app/config
 
 EXPOSE 80
+VOLUME /app/config
 CMD ["/run.sh"]
