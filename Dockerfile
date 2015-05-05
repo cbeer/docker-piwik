@@ -1,6 +1,6 @@
 FROM tutum/apache-php
 
-ENV PIWIK_VERSION 2.12.1
+ENV PIWIK_VERSION 2.13.0
 
 RUN rm -rf /app/*
 RUN curl -L -O http://builds.piwik.org/piwik-${PIWIK_VERSION}.tar.gz && \
